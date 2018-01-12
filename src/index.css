@@ -24,3 +24,8 @@ pre {
 .container--footer {
   background-color: #fff !important;
 }
+
+.made-with-love svg {
+  top: 5px !important;
+  width: 20px !important;
+}
