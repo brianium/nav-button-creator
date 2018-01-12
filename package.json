@@ -2,6 +2,7 @@
   "name": "nav-button-creator",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://brianium.github.io/nav-button-creator",
   "dependencies": {
     "clipboard": "^1.7.1",
     "nav-button": "^1.0.12",
@@ -14,9 +15,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "push-dir --dir=build --branch=gh-pages"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "push-dir": "^0.4.1"
+    "gh-pages": "^1.1.0"
   }
 }
