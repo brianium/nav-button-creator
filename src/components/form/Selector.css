@@ -1,0 +1,14 @@
+.btn-secondary {
+  background-color: hsl(199, 81%, 58%);
+  border-color: #22617d !important;
+}
+
+.btn-secondary:hover,
+.btn--active,
+.btn-secondary:active {
+  background-color: #2b7a9d !important;
+}
+
+.btn-secondary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(61,180,235,0.5);
+}

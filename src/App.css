@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.App__row {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  height: 150px;
+  padding: 20px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}

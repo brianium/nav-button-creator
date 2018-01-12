@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,700|Roboto:300,700");
+
+body {
+  margin: 0;
+  padding: 60px 0 0 0;
+}
+
+pre {
+  background-color: #efefef;
+}
+
+.callout a,
+.callout a:link,
+.callout a:visited {
+  color: hsl(199, 81%, 58%) !important;
+  transition: color 250ms;
+}
+
+.callout a:hover,
+.callout a:active {
+  color: hsl(263, 38%, 53%) !important;
+}
+
+.container--footer {
+  background-color: #fff !important;
+}
